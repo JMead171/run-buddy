@@ -166,11 +166,6 @@ section {
 }
 /* Hero From Ends */
 
-/* apply style to intro */
-.intro {
-    text-align: center;
-}
-
 /* apply style to intro p */
 .intro p {
     font-size: 20px;
@@ -178,11 +173,11 @@ section {
     width: 80%;
     margin: 0 auto;
     line-height: 1.7;
+    text-align: center;
 }
 
 /* apply style to steps */
 .steps {
-    text-align: center;
     background-color: #fce138;
 }
 
@@ -190,10 +185,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 /* apply style to primary */
@@ -236,10 +232,11 @@ section {
     font-size: 38px;
 }
 
-/* Meet the Trainers */
+/* Meet the Trainers
 .trainers {
-    text-align: center;
+    
 }
+*/
 
 .trainer {
     width: 900px;
@@ -276,17 +273,8 @@ section {
     line-height: 1.3;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 /* Add style to Contact Section */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -323,5 +311,18 @@ section {
 .contact-info a {
     color: #fce138;
 }
-  
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
+
+
   /* REACH OUT STYLES END */
