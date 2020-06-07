@@ -12,3 +12,5 @@ https://jmead171.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Jeff Mead
+
+### ©️2019 Run Buddy, Inc 
